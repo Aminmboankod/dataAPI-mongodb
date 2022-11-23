@@ -1,6 +1,6 @@
 import requests
 import json
-url = "https://data.mongodb-api.com/app/data-iukxp/endpoint/data/v1/action/findOne"
+url = "https://data.mongodb-api.com/app/data-iukxp/endpoint/data/v1/action/find"
 
 payload = json.dumps({
     "collection": "bikes",
